@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:700');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    position: relative;
+}
+
+html {
+    background-color: #EEEEEE;
+    font-family: 'Muli';
+}
+
+#landingtitle {
+    font-size: 8vw;
+    font-family: 'Muli';
+    text-align: center;
+    padding-top: 10vh;
+    color: #424242;
+}
+
+form {
+    text-align: center;
+    margin-top: 8vw;
+}
+
+input {
+    margin-bottom: 5vw;
+}
+
+#storypath {
+    height: 5vw;
+    width: 25vw;
+    padding: 0.5vw;
+    font-size: 2vw;
+    color: #424242;
+    font-family: "Muli", sans-serif;
+}
+
+#submitbutton {
+    height: 6vw;
+    width: 10vw;
+    font-size: 2vw;
+    font-weight: 500;
+    text-align: center;
+    color: #424242;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #EEEEEE;
+    border: 2px solid #424242;
+    border-radius: 4px;
+    font-family: "Muli", sans-serif;
+}
+
+#submitbutton:hover {
+    background-color: #424242;
+    color: #EEEEEE;
+}
+
+#gitfooter {
+    text-align: center;
+}
+
+#gitfooter a {
+    text-decoration: none;
+    color: #424242;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
