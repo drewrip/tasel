@@ -1,0 +1,31 @@
+{
+  "name": "tasel",
+  "version": "1.0.0",
+  "description": "Electron implementation of OpenTA player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewrip/tasel.git"
+  },
+  "keywords": [
+    "player",
+    "OpenTA",
+    "Text",
+    "story",
+    "electron",
+    "javascript"
+  ],
+  "author": "drewrip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewrip/tasel/issues"
+  },
+  "homepage": "https://github.com/drewrip/tasel#readme",
+  "devDependencies": {
+    "electron": "^3.0.4"
+  }
+}
