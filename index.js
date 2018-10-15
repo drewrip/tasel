@@ -13,9 +13,6 @@ const path = require("path")
 
     win.loadFile("src/main.html")
 
-    win.webContents.openDevTools()
-
-
     win.on("closed", () => {
 
       win = null
