@@ -13,7 +13,7 @@ const path = require("path")
 
     win.loadFile("src/main.html")
 
-    //win.webContents.openDevTools()
+    win.webContents.openDevTools()
 
 
     win.on("closed", () => {
@@ -43,7 +43,7 @@ const path = require("path")
       storydir = storyp
       info = require(storyp + "info.json")
       map = require(storyp + "map.json")
-      event.sender.send("render", info, "<h1 id=\"story-title\"></h1><h2 id=\"story-author\"></h2><h4 id=\"story-agerec\"></h4><p id=\"story-description\"></p><p id=\"story-disclaimer\"></p><ul id=\"story-tags\"></ul><button id=\"backButton\" onclick=\"backtostart()\">Back</button><button id=\"startButton\" onclick=\"startstory()\">Start</button>")
+      event.sender.send("render", info, "<div id=\"info\"><h1 id=\"story-title\"></h1><h2 id=\"story-author\"></h2><h4 id=\"story-agerec\"></h4><p id=\"story-description\"></p><p id=\"story-disclaimer\"></p><div id=\"story-tags\"></div><div id=\"navButtons\"><button id=\"backButton\" onclick=\"backtostart()\">◅ Back</button><button id=\"startButton\" onclick=\"story()\">Next ▻</button></div></div>")
   });
 
   ipcMain.on("getPath", function(event){
